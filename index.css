@@ -1,0 +1,92 @@
+body {
+    padding-left: 50px;
+    /*background-color: #1F2937;*/
+    background-color: #ECFDF5;
+
+    /*inter font family link: */
+    :root { font-family: 'Inter', sans-serif; }
+    @supports (font-variation-settings: normal) {
+    :root { font-family: 'Inter var', sans-serif; }
+    }
+}
+
+/*Commented out colors are for dark mode colors*/
+
+@font-face {
+    src: url("Karla-Regular.ttf");
+    font-family: Karla;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin-top: 115px;
+    margin-left: 52px;
+}
+
+#main-text-one {
+    /*color: white;*/
+    color: #1F2937;
+    font-family: 'Karla';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+#main-text-two {
+    /*color: #4ADF86;*/
+    color: #10B981;
+    margin-top: 0;
+}
+
+#text-three {
+    font-family: 'Inter';
+    /*color: #D5D4D8;*/
+    color: #6B7280;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+button {
+    background-color: #10B981;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+    border-radius: 6px;
+    width: 191px;
+    height: 42px;
+    padding: 9px 17px 9px 15px;
+    margin-top: 30px;
+}
+
+#line {
+    /*border-bottom: 1px solid #273549;*/
+    border-bottom: 1px solid #D5D4D8;
+    width: 446px;
+    margin-top: 35px;
+}
+
+.passwords-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 446px;
+    margin-top: 35px;
+}
+
+.pwbox {
+    background: #273549;
+    color: #5DEF92;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+}
